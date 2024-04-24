@@ -1,6 +1,6 @@
 # Hollow Knight: Silksong Website
 
-![Hollow Knight: Silksong Logo](/assets/silksong-logo.png)
+![Hollow Knight: Silksong Logo](/assets/main-img.png)
 
 Este é um projeto de site desenvolvido como parte de uma atividade na Praxis EJ. O site é dedicado ao jogo "Hollow Knight: Silksong", desenvolvido pela Team Cherry.
 
