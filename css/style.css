@@ -190,7 +190,7 @@ section img {
 
 .box p {
     margin-top: 20px;
-    font-size: 1.0vw;
+    font-size: 1.9vh;
     width: 558px;
     height: 193px;
 }
@@ -403,3 +403,5 @@ footer {
         font-size: 2vw
     }
 }
+
+@media screen and (max-width: 1024px) {}
