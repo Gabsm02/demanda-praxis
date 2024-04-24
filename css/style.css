@@ -406,3 +406,18 @@ footer {
         margin-top: 200px;
     }
 }
+
+@media only screen and (max-width: 414px) {
+    .main-box {
+        margin-bottom: 330px;
+    }
+
+    .section {
+        position: absolute;
+        margin-top: 400px;
+    }
+
+    #historia {
+        margin-top: 200px;
+    }
+}
