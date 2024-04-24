@@ -6,7 +6,7 @@
 
 body {
     font-family: "Montserrat", sans-serif;
-    background-color: #000
+    background-color: #040404
 }
 
 header {
@@ -14,7 +14,7 @@ header {
     max-width: 1200px;
     padding: 0 20px;
     font-size: 16px;
-    font-weight: 700
+    font-weight: 700;
 }
 
 .header-nav-desktop {
@@ -70,7 +70,6 @@ main {
     border-radius: 61.91px;
     color: #ECECEC;
     font-weight: 700;
-    font-size: 17.33px;
     font-size: 16px;
     padding: 15px 25px
 }
@@ -177,20 +176,23 @@ section img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
+    gap: 3px;
     text-align: center;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
     border-radius: 20px;
-    padding: 1rem
+    height: 358px;
+    width: 678px;
 }
 
 .box-sinopse h1 {
-    font-size: 1.5vw
+    font-size: 1.0vw
 }
 
 .box p {
-    font-size: 1vw;
-    margin: 0
+    margin-top: 20px;
+    font-size: 0.8vw;
+    width: 558px;
+    height: 193px;
 }
 
 section>img {
@@ -204,7 +206,7 @@ footer {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    gap: .5vw;
+    gap: 5vw;
     color: #ECECEC;
     margin-top: 5vw
 }
@@ -251,10 +253,11 @@ footer {
     display: block
 }
 
-@media screen and (max-width: 747px) {
+@media screen and (max-width: 768px) {
     header {
         margin-bottom: -50px;
-        padding-top: 2vw
+        padding-top: 2vw;
+        background-color: #040404;
     }
 
     .desktop {
@@ -348,19 +351,28 @@ footer {
     }
 
     .box {
-        flex-wrap: wrap
+        flex-wrap: wrap;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        border-radius: 20px;
+        padding: 5% 0%;
     }
 
     .box-sinopse {
-        padding: 1rem
+        height: 200px;
+        width: 200px;
+        margin-bottom: 20px;
+        padding-bottom: 100px;
+
     }
 
     .box-sinopse h1 {
-        font-size: 4vw
+        font-size: 3vw
     }
 
-    .box p {
-        font-size: 2vw
+    .box-sinopse p {
+        font-size: 2vw;
+        width: 205px;
+        height: 20px;
     }
 
     footer {
